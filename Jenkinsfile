@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Building testing branch..."'
+                sh 'echo "Building feature1 branch..."'
             }
         }
         
         stage('Test') {
             steps {
-                sh 'echo "Testing testing branch..."'
+                sh 'echo "Testing feature1 branch..."'
             }
         }
         
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying testinsg branch..."'
+                sh 'echo "Deploying feature1 branch..."'
             }
         }
     }
